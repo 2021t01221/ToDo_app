@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ToDo_new</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="create_password">Create password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="i_agree_all_terms_and_conditions">I agree all terms and conditions</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="enter_your_e_mail">Enter your e-mail</string>
+    <string name="password">********</string>
+    <string name="login_log">Login</string>
+    <string name="sign_up_log">Sign Up</string>
+    <string name="forgort_password">Forgort password?</string>
+    <string name="or_don_t_have_an_account">Or don\'t have an account?</string>
+    <string name="use_my_alarm_to_remind_me">Use my alarm to remind me</string>
+    <string name="e_mail_reminder">E mail reminder</string>
+    <string name="show_all_tasks">Show all tasks</string>
+    <string name="old_password">Old password</string>
+    <string name="create_task">Create Task</string>
+    <string name="name_miyuranga_ketipearachchi">Name : Miyuranga Ketipearachchi</string>
+    <string name="about_dome_is_the_is_the_productivity_tool_designed_to_help_users_organize_tasks_manage_their_time_effectively_and_prioritize_activities">About : DoMe is the is the productivity tool designed to help users organize tasks, manage their time effectively, and prioritize activities</string>
+    <string name="relese_version_v1_0">Relese version : V1.0</string>
+    <string name="student_no_2021t01221">Student No : 2021t01221</string>
+    <string name="dev_info">Dev info</string>
+    <string name="exit">Exit</string>
+    <string name="dome_is_the_is_the_productivity_tool_designed_to_help_users_organize_tasks_manage_their_time_effectively_and_prioritize_activities">DoMe is the is the productivity tool designed to help users organize tasks, manage their time effectively, and prioritize activities.</string>
+    <string name="all_tasks">All tasks</string>
+    <string name="design_a_team_meeting">Design a team meeting</string>
+    <string name="_02_04_2024">02-04-2024</string>
+    <string name="_1_00_pm">1.00 pm</string>
+    <string name="remind">Remind</string>
+    <string name="title">Title</string>
+    <string name="repeat">Repeat</string>
+    <string name="end_time">End time</string>
+    <string name="start_time">Start time</string>
+    <string name="deadline">Deadline</string>
+    <string name="add_task">Add Task</string>
+    <string name="_3_00_pm">3.00 pm</string>
+    <string name="personal">personal</string>
+    <string name="work">Work</string>
+    <string name="family">Family</string>
+    <string name="shopping">Shopping</string>
+    <string name="new_password">New password</string>
+    <string name="Confirm_password">Confirm password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="genaral">Genaral</string>
+    <string name="profile_setting">Profile setting</string>
+    <string name="change_password">Change password</string>
+    <string name="jhon_gmail_com">jhon@gmail.com</string>
+    <string name="jhon">Jhon</string>
+    <string name="setting">Setting</string>
+    <string name="Genaral">Genaral</string>
+    <string name="save_changes">Save changes</string>
+    <string name="Setting">Setting</string>
+    <string name="Save_changes">Save changes</string>
+    <string name="category">Category</string>
+    <string name="other">Other</string>
+    <string name="Other" />
+    <string name="Others">Other</string>
+    <string name="task_title">Task Title</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="logout">Logout</string>
+    <string name="device_info">Device Info</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="_02_dec_2024">02-DEC-2024</string>
+    <string name="_22_35_58">22-35-58</string>
+    <string name="_22_35_00">22-35-00</string>
+
+    <string-array name="repeat_options">
+        <item>Hourly</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="remind_options">
+        <item>1 minute early</item>
+        <item>10 minutes early</item>
+        <item>1 hour early</item>
+        <item>1 day early</item>
+    </string-array>
+
+    <string-array name="category_options">
+        <item>Family</item>
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

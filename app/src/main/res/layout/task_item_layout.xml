@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/palegreen">
+
+    <TextView
+        android:id="@+id/textViewTaskTitle"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:text="@string/task_title"
+        android:background="@color/palegreen"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@id/textViewTaskTitle"
+        android:background="@drawable/button_short"
+        android:textColor="@color/black"
+        android:text="@string/update"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/buttonUpdate"
+        android:background="@drawable/button_short"
+        android:text="@string/delete"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No ActionBar theme -->
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowBackground">@color/lightgreen</item>
+        <item name="buttonStyle">@style/YourButtonStyle</item>
+    </style>
+
+    <!-- Default AppTheme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:popupWindowStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:actionBarPopupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="buttonStyle">@style/YourButtonStyle</item>
+    </style>
+
+    <!-- PopupOverlay theme -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- PopupMenu style -->
+    <style name="PopupMenu"> </style>
+
+    <!-- DropDownListView style -->
+    <style name="DropDownListView"> </style>
+
+    <!-- Custom Button Style -->
+    <style name="YourButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/buttons</item>
+        <item name="android:textColor">@color/white</item> <!-- Ensure high contrast text color -->
+    </style>
+</resources>
