@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -15,11 +16,20 @@ public class settingsActivity extends AppCompatActivity {
 
     Switch switch1;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+
+        Button save = findViewById(R.id.button4);
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(settingsActivity.this,settingsActivity.class));
+            }
+        });
 
 
         ImageView navhome = findViewById(R.id.imageView15);
