@@ -29,6 +29,8 @@ public class loginActivity extends AppCompatActivity {
         btn_signup = findViewById(R.id.buttonLogSignup);
 
         btn_login.setOnClickListener(new View.OnClickListener() {
+
+            //validation
             @Override
             public void onClick(View view) {
                 String e_mail = email.getText().toString();
