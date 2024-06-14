@@ -135,7 +135,7 @@ public class Database extends SQLiteOpenHelper {
         }
         db.close();
     }
-
+//update user profile
     public void updateUserProfile(String oldEmail, String newName, String newEmail) {
         ContentValues cv = new ContentValues();
         cv.put("name", newName);
