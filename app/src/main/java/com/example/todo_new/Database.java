@@ -149,7 +149,7 @@ public class Database extends SQLiteOpenHelper {
         }
         db.close();
     }
-
+//method to update password
     public void updatePassword(String email, String newPassword) {
         ContentValues cv = new ContentValues();
         cv.put("password", newPassword);
